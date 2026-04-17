@@ -3,12 +3,12 @@
 import { motion } from "framer-motion";
 
 const images = [
-  { src: "/images/g1.jpg", span: "md:col-span-2 md:row-span-2", label: "Elite Performance" },
-  { src: "/images/g2.jpg", span: "md:col-span-1 md:row-span-1", label: "Strength" },
-  { src: "/images/g3.jpg", span: "md:col-span-1 md:row-span-1", label: "Recovery" },
-  { src: "/images/g4.jpg", span: "md:col-span-1 md:row-span-2", label: "Cardio Zone" },
-  { src: "/images/g5.jpg", span: "md:col-span-1 md:row-span-1", label: "Boxing" },
-  { src: "/images/g6.jpg", span: "md:col-span-1 md:row-span-1", label: "Mindset" },
+  { src: "/images/gallery/elite_performance.jpg", span: "md:col-span-2 md:row-span-2", label: "Elite Performance" },
+  { src: "/images/gallery/strength.jpg", span: "md:col-span-1 md:row-span-1", label: "Strength" },
+  { src: "/images/gallery/recovery.jpg", span: "md:col-span-1 md:row-span-1", label: "Recovery" },
+  { src: "/images/gallery/cardio.jpg", span: "md:col-span-1 md:row-span-2", label: "Cardio Zone" },
+  { src: "/images/gallery/boxing.jpg", span: "md:col-span-1 md:row-span-1", label: "Boxing" },
+  { src: "/images/gallery/mindset.jpg", span: "md:col-span-1 md:row-span-1", label: "Mindset" },
 ];
 
 export default function Gallery() {

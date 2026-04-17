@@ -38,7 +38,7 @@ export default function About() {
         >
           <div className="relative rounded-2xl md:rounded-3xl overflow-hidden border border-white/10 group">
             <img
-              src="/images/about.jpg"
+              src="/images/about/about1.jpg"
               alt="Gym transformation"
               className="w-full h-[350px] md:h-[600px] object-cover grayscale hover:grayscale-0 transition-all duration-700"
             />

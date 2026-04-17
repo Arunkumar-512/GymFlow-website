@@ -3,9 +3,9 @@
 import { motion } from "framer-motion";
 
 const trainers = [
-  { name: "Rahul Sharma", role: "Strength Coach", img: "/images/t1.jpg", bio: "10+ Years in Pro Powerlifting" },
-  { name: "Anjali Verma", role: "Yoga Trainer", img: "/images/t2.jpg", bio: "Mindfulness & Mobility Expert" },
-  { name: "Arjun Patel", role: "CrossFit Expert", img: "/images/t3.jpg", bio: "Certified HIIT & Agility Specialist" },
+  { name: "Rahul Sharma", role: "Strength Coach", img: "/images/trainers/about2.jpg", bio: "10+ Years in Pro Powerlifting" },
+  { name: "Anjali Verma", role: "Yoga Trainer", img: "/images/trainers/elite2.jpg", bio: "Mindfulness & Mobility Expert" },
+  { name: "Arjun Patel", role: "CrossFit Expert", img: "/images/trainers/elite2.jpg", bio: "Certified HIIT & Agility Specialist" },
 ];
 
 export default function Trainers() {

@@ -116,7 +116,7 @@ export default function Home() {
             <div className="absolute -inset-1 bg-gradient-to-r from-[#FF6A00] to-transparent opacity-20 blur rounded-[2.5rem] group-hover:opacity-40 transition-opacity duration-500" />
             
             <img
-              src="/images/gym-hero.jpg"
+              src="/images/hero/hero1.png"
               alt="Elite Gym Workout"
               className="relative rounded-[2rem] shadow-2xl object-cover w-full h-[400px] md:h-[600px] grayscale-[30%] group-hover:grayscale-0 transition-all duration-700"
             />
