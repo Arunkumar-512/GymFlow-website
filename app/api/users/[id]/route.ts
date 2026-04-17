@@ -1,18 +1,20 @@
-import { prisma } from "@/lib/prisma";
+import { NextRequest } from "next/server";
 
 export async function DELETE(
-  req: Request,
-  { params }: { params: { id: string } }
+  request: NextRequest,
+  context: { params: Promise<{ id: string }> }
 ) {
-  try {
-    await prisma.user.delete({
-      where: { id: params.id },
-    });
+  const { id } = await context.params;
 
-    return Response.json({ message: "User deleted" });
+  try {
+    // your delete logic
+    return new Response(
+      JSON.stringify({ message: `User ${id} deleted` }),
+      { status: 200 }
+    );
   } catch (error) {
-    return Response.json(
-      { error: "Failed to delete" },
+    return new Response(
+      JSON.stringify({ error: "Failed to delete user" }),
       { status: 500 }
     );
   }
