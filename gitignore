@@ -1,0 +1,36 @@
+# --- DATABASE / PRISMA ---
+# Protect your local database and environment secrets
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+/prisma/dev.db
+/prisma/dev.db-journal
+
+# --- NEXT.JS / NODE ---
+node_modules/
+.next/
+out/
+build/
+
+# --- LOGS ---
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# --- TESTING ---
+.vercel
+coverage/
+.nyc_output/
+
+# --- OPERATING SYSTEM ---
+.DS_Store
+Thumbs.db
+*.swp
+
+# --- TYPESCRIPT ---
+*.tsbuildinfo
+next-env.d.ts
+
